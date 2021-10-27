@@ -1,0 +1,16 @@
+body {
+    background-color:burlywood;
+    background-image: none;
+    /* border: 10px solid aquamarine */;
+    color: darkcyan;
+}
+
+.hero {
+    grid-area: hero;
+    min-height: 400px;
+    background: white url(../images/agung_warung_rendang.jpeg);
+  }
+
+  /* Start Mobile */
+  @media screen (max-width: 480px) {
+  }
